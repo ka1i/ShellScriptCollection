@@ -1,10 +1,12 @@
 #!/bin/bash --posix
 
-# Auther Mardan
-# git sparse checkout 脚本化
-## 此脚本 拉取仓库主分支，就算url带`/tree/devlep`等分支选择，所以注意。
-## git版本 至少2.25
-# Usage: gsc.sh file-url
+# Copyright © Mardan . All Rights Reserved.
+:<<Comments 代码说明
+git sparse checkout 脚本化,此脚本 拉取仓库主分支
+就算url带/tree/devlep等分支选择，所以注意。
+git版本 至少2.25
+Usage: gsc.sh file-url
+Comments
 
 
 url=$1
