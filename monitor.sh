@@ -9,7 +9,7 @@
 如果已登录，则显示相应信息；如果未登录，则等待该用户登录，直到指定用户登录进入系统为止。
 Comments
 
-trap "echo -e '\033[2D\n\033[?25hByeBye!';exit" 2
+trap "echo -e '\n\033[?25hByeBye!';exit" 2
 #定义全局变量
 STATUS=0
 LINE=5
